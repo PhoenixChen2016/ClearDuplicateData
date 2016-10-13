@@ -58,4 +58,13 @@
   <ItemGroup>
     <Folder Include="Properties" />
   </ItemGroup>
+  <ItemGroup>
+    <Build Include="DataTable.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Solution.sql" />
+  </ItemGroup>
 </Project>
